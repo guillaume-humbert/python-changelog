@@ -1,0 +1,5 @@
+python-changelog (0.3.4-1) unstable; urgency=low
+
+  * Initial release (closes: #735209)
+
+ -- Piotr Ożarowski <piotr@debian.org>  Mon, 13 Jan 2014 21:51:27 +0100
