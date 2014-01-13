@@ -1,0 +1,74 @@
+Source: python-changelog
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Dmitry Shachnev <mitya57@gmail.com>, Piotr Ożarowski <piotr@debian.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9), dh-python,
+ python-all,
+ python-setuptools,
+ python3-all,
+ python3-setuptools
+Standards-Version: 3.9.5
+Homepage: https://bitbucket.org/zzzeek/changelog
+Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-changelog/trunk/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-changelog/trunk/
+
+Package: python-changelog
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Enhances: python-sphinx
+Description: Sphinx extension to generate changelog files
+ This package provides simple Sphinx markup to render changelog displays
+ .
+ Example:
+ .
+  ====================
+  Changelog for 1.5.6
+  ====================
+ . 
+  .. changelog::
+      :version: 1.5.6
+      :released: Sun Oct 12 2008
+ . 
+      .. change::
+          :tags: general
+          :tickets: 27
+ . 
+        Improved the frobnozzle.
+ . 
+      .. change::
+          :tags: rendering, tests
+          :pullreq: 8
+          :changeset: a9d7cc0b56c2
+ . 
+        Rendering tests now correctly render.
+
+Package: python3-changelog
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Enhances: python3-sphinx
+Description: Sphinx extension to generate changelog files
+ This package provides simple Sphinx markup to render changelog displays
+ .
+ Example:
+ .
+  ====================
+  Changelog for 1.5.6
+  ====================
+ . 
+  .. changelog::
+      :version: 1.5.6
+      :released: Sun Oct 12 2008
+ . 
+      .. change::
+          :tags: general
+          :tickets: 27
+ . 
+        Improved the frobnozzle.
+ . 
+      .. change::
+          :tags: rendering, tests
+          :pullreq: 8
+          :changeset: a9d7cc0b56c2
+ . 
+        Rendering tests now correctly render.
