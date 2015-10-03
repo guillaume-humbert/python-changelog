@@ -1,4 +1,4 @@
-python-changelog (0.3.4-2) UNRELEASED; urgency=medium
+python-changelog (0.3.4-2) unstable; urgency=medium
 
   * Do not attempt to run tests as they do not exist (closes: #800671).
   * Update debian/watch to point to pypi.debian.net redirector.
