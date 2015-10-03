@@ -4,6 +4,7 @@ python-changelog (0.3.4-2) UNRELEASED; urgency=medium
   * Update debian/watch to point to pypi.debian.net redirector.
   * Update my e-mail address.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Fix Lintian license-name-not-unique warning.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sat, 03 Oct 2015 20:42:15 +0300
 
