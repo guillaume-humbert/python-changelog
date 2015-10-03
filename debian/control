@@ -1,6 +1,6 @@
 Source: python-changelog
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Dmitry Shachnev <mitya57@gmail.com>, Piotr Ożarowski <piotr@debian.org>
+Uploaders: Dmitry Shachnev <mitya57@debian.org>, Piotr Ożarowski <piotr@debian.org>
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 9), dh-python,
