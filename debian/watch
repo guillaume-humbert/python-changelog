@@ -1,3 +1,2 @@
 version=3
-opts=uversionmangle=s/(beta|rc|a|b|c)/~$1/ \
-http://pypi.python.org/packages/source/c/changelog/changelog-(.+)\.tar\.gz
+https://pypi.debian.net/changelog/changelog-(.+)\.tar\.gz
