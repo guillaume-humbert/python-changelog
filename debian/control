@@ -17,8 +17,9 @@ Package: python-changelog
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
 Enhances: python-sphinx
-Description: Sphinx extension to generate changelog files
+Description: Sphinx extension to generate changelog files (Python 2)
  This package provides simple Sphinx markup to render changelog displays
+ (this is the Python 2 version of the extension).
  .
  Example:
  .
@@ -47,8 +48,9 @@ Package: python3-changelog
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
 Enhances: python3-sphinx
-Description: Sphinx extension to generate changelog files
+Description: Sphinx extension to generate changelog files (Python 3)
  This package provides simple Sphinx markup to render changelog displays
+ (this is the Python 3 version of the extension).
  .
  Example:
  .
