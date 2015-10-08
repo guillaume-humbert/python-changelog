@@ -6,3 +6,6 @@ ecffefa7a5a214543a109a1b888e32e090bcc58d
 python-changelog_0.3.4.orig.tar.gz
 ed8192b12fdc7b1649467cd652b913136a979104
 9985
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
