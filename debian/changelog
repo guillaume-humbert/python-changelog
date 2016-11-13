@@ -5,6 +5,7 @@ python-changelog (0.3.5-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream bugfix release.
+  * Bump Standards-Version to 3.9.8, no changes needed.
 
  -- Ondřej Nový <novy@ondrej.org>  Tue, 29 Mar 2016 22:08:40 +0200
 
