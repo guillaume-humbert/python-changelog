@@ -1,4 +1,4 @@
-python-changelog (0.3.5-1) UNRELEASED; urgency=medium
+python-changelog (0.3.5-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
   * Fixed VCS URL (https)
@@ -7,7 +7,7 @@ python-changelog (0.3.5-1) UNRELEASED; urgency=medium
   * New upstream bugfix release.
   * Bump Standards-Version to 3.9.8, no changes needed.
 
- -- Ondřej Nový <novy@ondrej.org>  Tue, 29 Mar 2016 22:08:40 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 13 Nov 2016 19:17:55 +0300
 
 python-changelog (0.3.4-2) unstable; urgency=medium
 
