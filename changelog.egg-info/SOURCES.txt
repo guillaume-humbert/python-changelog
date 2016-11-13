@@ -10,5 +10,3 @@ changelog.egg-info/SOURCES.txt
 changelog.egg-info/dependency_links.txt
 changelog.egg-info/not-zip-safe
 changelog.egg-info/top_level.txt
-util/changelog_to_rst.py
-util/trac_to_rst.py
