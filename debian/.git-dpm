@@ -1,11 +1,11 @@
 # see git-dpm(1) from git-dpm package
-ecffefa7a5a214543a109a1b888e32e090bcc58d
-ecffefa7a5a214543a109a1b888e32e090bcc58d
-ecffefa7a5a214543a109a1b888e32e090bcc58d
-ecffefa7a5a214543a109a1b888e32e090bcc58d
-python-changelog_0.3.4.orig.tar.gz
-ed8192b12fdc7b1649467cd652b913136a979104
-9985
+ef45e94516b043e7c0b28ef4792af8535c32fc68
+ef45e94516b043e7c0b28ef4792af8535c32fc68
+ef45e94516b043e7c0b28ef4792af8535c32fc68
+ef45e94516b043e7c0b28ef4792af8535c32fc68
+python-changelog_0.3.5.orig.tar.gz
+c1026379bd5af884013aece00f749c50d2ac5f56
+7003
 debianTag="debian/%e%v"
 patchedTag="patched/%e%v"
 upstreamTag="upstream/%e%u"

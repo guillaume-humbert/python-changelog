@@ -1,6 +1,10 @@
-python-changelog (0.3.4-3) UNRELEASED; urgency=medium
+python-changelog (0.3.5-1) UNRELEASED; urgency=medium
 
+  [ Ondřej Nový ]
   * Fixed VCS URL (https)
+
+  [ Dmitry Shachnev ]
+  * New upstream bugfix release.
 
  -- Ondřej Nový <novy@ondrej.org>  Tue, 29 Mar 2016 22:08:40 +0200
 
