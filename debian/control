@@ -26,22 +26,22 @@ Description: Sphinx extension to generate changelog files (Python 2)
   ====================
   Changelog for 1.5.6
   ====================
- . 
+ .
   .. changelog::
       :version: 1.5.6
       :released: Sun Oct 12 2008
- . 
+ .
       .. change::
           :tags: general
           :tickets: 27
- . 
+ .
         Improved the frobnozzle.
- . 
+ .
       .. change::
           :tags: rendering, tests
           :pullreq: 8
           :changeset: a9d7cc0b56c2
- . 
+ .
         Rendering tests now correctly render.
 
 Package: python3-changelog
@@ -57,20 +57,20 @@ Description: Sphinx extension to generate changelog files (Python 3)
   ====================
   Changelog for 1.5.6
   ====================
- . 
+ .
   .. changelog::
       :version: 1.5.6
       :released: Sun Oct 12 2008
- . 
+ .
       .. change::
           :tags: general
           :tickets: 27
- . 
+ .
         Improved the frobnozzle.
- . 
+ .
       .. change::
           :tags: rendering, tests
           :pullreq: 8
           :changeset: a9d7cc0b56c2
- . 
+ .
         Rendering tests now correctly render.
