@@ -6,8 +6,10 @@ Priority: optional
 Build-Depends: debhelper (>= 9), dh-python,
  python-all,
  python-setuptools,
+ python-sphinx,
  python3-all,
- python3-setuptools
+ python3-setuptools,
+ python3-sphinx
 Standards-Version: 3.9.8
 Homepage: https://bitbucket.org/zzzeek/changelog
 Vcs-Git: https://salsa.debian.org/python-team/modules/python-changelog.git
@@ -15,7 +17,7 @@ Vcs-Browser: https://salsa.debian.org/python-team/modules/python-changelog
 
 Package: python-changelog
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python:Depends}, python-sphinx
 Enhances: python-sphinx
 Description: Sphinx extension to generate changelog files (Python 2)
  This package provides simple Sphinx markup to render changelog displays
@@ -46,7 +48,7 @@ Description: Sphinx extension to generate changelog files (Python 2)
 
 Package: python3-changelog
 Architecture: all
-Depends: ${misc:Depends}, ${python3:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}, python3-sphinx
 Enhances: python3-sphinx
 Description: Sphinx extension to generate changelog files (Python 3)
  This package provides simple Sphinx markup to render changelog displays

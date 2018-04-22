@@ -1,0 +1,16 @@
+From: Andrej Shadura <andrewsh@debian.org>
+Subject: Import Directive from docutils.parsers.rst not sphinx.util.compat
+
+sphinx.util.compat has been deprecated.
+
+--- a/changelog/changelog.py
++++ b/changelog/changelog.py
+@@ -2,7 +2,7 @@
+ 
+ 
+ import re
+-from sphinx.util.compat import Directive
++from docutils.parsers.rst import Directive
+ from docutils.statemachine import StringList
+ from docutils import nodes
+ from sphinx.util.console import bold
