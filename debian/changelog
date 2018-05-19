@@ -1,4 +1,4 @@
-python-changelog (0.4.0-1) UNRELEASED; urgency=medium
+python-changelog (0.4.0-1) unstable; urgency=medium
 
   * Switch from git-dpm to gbp.
   * New upstream release.
