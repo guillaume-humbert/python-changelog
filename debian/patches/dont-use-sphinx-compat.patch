@@ -1,8 +1,14 @@
 From: Andrej Shadura <andrewsh@debian.org>
+Date: Sun, 22 Apr 2018 14:37:49 +0200
 Subject: Import Directive from docutils.parsers.rst not sphinx.util.compat
 
 sphinx.util.compat has been deprecated.
+---
+ changelog/changelog.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
+diff --git a/changelog/changelog.py b/changelog/changelog.py
+index d153571..7239d4e 100644
 --- a/changelog/changelog.py
 +++ b/changelog/changelog.py
 @@ -2,7 +2,7 @@
