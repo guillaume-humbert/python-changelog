@@ -5,6 +5,7 @@ python-changelog (0.4.0-1) UNRELEASED; urgency=medium
     - Correctly sorts uncategorized tags (closes: #883716).
   * Drop dont-use-sphinx-compat.patch, applied upstream.
   * Update to debhelper compat level 11.
+  * Do not install the ‘changelog’ script, its name is too generic.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sat, 19 May 2018 15:27:52 +0300
 
