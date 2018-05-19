@@ -3,6 +3,7 @@ python-changelog (0.4.0-1) UNRELEASED; urgency=medium
   * Switch from git-dpm to gbp.
   * New upstream release.
     - Correctly sorts uncategorized tags (closes: #883716).
+  * Drop dont-use-sphinx-compat.patch, applied upstream.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sat, 19 May 2018 15:27:52 +0300
 
