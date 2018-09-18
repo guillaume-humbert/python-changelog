@@ -1,6 +1,7 @@
 python-changelog (0.4.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Drop dh_installchangelogs override, #861852 has been fixed.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 18 Sep 2018 15:13:55 +0300
 
