@@ -1,4 +1,4 @@
-python-changelog (0.4.1-1) UNRELEASED; urgency=medium
+python-changelog (0.4.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Drop dh_installchangelogs override, #861852 has been fixed.
