@@ -1,3 +1,10 @@
+python-changelog (0.4.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - 0001-Make-the-references-reproducible.patch removed, applied upstream
+
+ -- Piotr Ożarowski <piotr@debian.org>  Sun, 30 Dec 2018 21:49:31 +0100
+
 python-changelog (0.4.1-2) unstable; urgency=medium
 
   * Team upload.
